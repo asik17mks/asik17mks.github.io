@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+h1,h2,h3,h4,h5,h6,
+.design-author {
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+ul{
+  padding: 0;
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+}
+.nopadding{
+  padding: 0;
+}
+.btn{
+  margin: 30px 0 0 0;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 7px 20px;
+  background: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,0));
+}
+.btn:hover{
+  background: linear-gradient(to top, rgba(100,100,100,0.5), rgba(100,100,100,0.5));
+}
+.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+body{
+  background-color: #162633;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  min-height: 300px;
+}
+.header-img{
+  background: url('image/header-img.png') no-repeat;
+  background-size: cover;
+}
+.header-nav{
+  padding: 50px;
+  background-color: #f3f3f3;
+}
+.ali-s{
+  font-weight: 100;
+}
+.web-d{
+  font-weight: 600;
+  white-space: nowrap;
+}
+.dmd{
+  color: #fff;
+  background: url('image/dmd-bg.png') no-repeat left;
+  background-size: cover;
+  padding: 0;
+}
+.best{
+  color: #262f32;
+  background: url('image/best-bg.png') no-repeat left;
+  background-size: cover;
+  padding: 0;
+  min-height: 50%;
+}
+.verified{
+  color: #fff;
+  background: url('image/verified-bg.png') no-repeat left;
+  background-size: cover;
+  padding: 0;
+  min-height: 50%;
+}
+.verified .btn{
+  color: #fff;
+  border-color: #fff;
+}
+.design{
+  color: #fff;
+  background: url('image/design-bg.png') no-repeat left;
+  background-size: cover;
+  padding: 0;
+}
+.sayhello{
+  color: #fff;
+  background: url('image/sayhello-bg.png') no-repeat left;
+  background-size: cover;
+  padding: 0;
+}
+.dmd-bg,
+.best-bg,
+.verified-bg,
+.design-bg{
+  margin: 0;
+  padding: 0;
+}
+.dmd-bg{
+  background: linear-gradient(to top, rgba(30,146,175,0.6), rgba(30,146,175,0.6));
+}
+.best-bg{
+  background: linear-gradient(to top, rgba(255,244,210,0.8), rgba(255,244,210,0.8));
+}
+.verified-bg{
+  background: linear-gradient(to top, rgba(22,38,51,0.7), rgba(22,38,51,0.7));
+}
+.design-bg{
+  background: linear-gradient(to top, rgba(29,83,103,0.5), rgba(29,83,103,0.5));
+}
+.sayhello-bg{
+  background: radial-gradient( rgba(77,89,95,0.1), rgba(77,89,95,0.7));
+}
+.dmd-bg div,
+.verified-bg div,
+.best-bg div,
+.design-bg div,
+.sayhello-bg div{
+  padding: 50px 15% 0 7%;
+  text-align: left;
+}
+.dmd-bg div:last-child,
+.verified-bg div:last-child,
+.best-bg div:last-child,
+.design-bg div:last-child{
+  padding: 50px 15% 10% 7%;
+}
+.dmd-bg h2,
+.verified-bg h2,
+.best-bg h2,
+.design-bg h2,
+.sayhello-bg h2,
+.design-author{
+    font-weight: 600;
+    margin: 0 0 5% 0;
+}
+.dmd-bg h2 span,
+.verified-bg h2 span,
+.best-bg h2 span,
+.design-bg h2 span,
+.sayhello-bg h2 span{
+    font-weight: 100;
+    margin:0 3% 0 0;
+}
+.design-logo{
+  margin: 150px 0 20px 0;
+}
+.design-author{
+  font-size: 36px;
+}
+form{
+  width: 70%;
+}
+input{
+  background: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,0));
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+input::placeholder{
+  color: #fff;
+  padding: 0 10px;
+}
+input[type="text"]{
+  width: 49%;
+  margin: 2% 0;
+}
+input[type="textarea"]{
+  padding: 0 0 80px 0;
+  width: 99%;
+}
+ul li a{
+   display: inline-block;
+ }
+.fa{
+   color: #fff;
+   border-radius: 5px;
+   width: 30px;
+   text-align: center;
+   padding: 7px 0;
+ }
+.fa-facebook{
+  background-color: #345bb4;
+}
+.fa-user-circle{
+  background-color: #e64895;
+}
+.fa-twitter{
+  background-color: #00b4ff;
+}
+.fa-facebook:hover{
+  background-color: #0b3698;
+}
+.fa-user-circle:hover{
+  background-color: #e31e7e;
+}
+.fa-twitter:hover{
+  background-color: #0078ff;
+}
+
+
+@media screen and (max-width:992px){
+  .h700{
+    height: 700px;
+  }
+  .header-nav{
+    background: url('image/header-img.png') no-repeat;
+    background-size: cover;
+    color: #fff;
+  }
+}
